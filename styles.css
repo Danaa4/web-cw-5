@@ -20,3 +20,24 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.wrapper{
+  direction: rtl;
+  width: 500px;
+  height:300px ;
+  padding:20px ;
+  border-radius: 26px;
+
+  background-color: rgb(211, 211, 211);
+}
+.c1{
+  background-color: rgb(178, 238, 253);
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  
+}
+
+.box{
+  direction: ltr;
+}

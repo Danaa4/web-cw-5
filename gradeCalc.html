@@ -37,27 +37,30 @@
 
     <!-- ابدأ الحل ↓↓↓ -->
     <div class="wrapper">
-      <h1>الحاسبة 🔢</h1>
+      <h1 class="c1">الحاسبة 🔢</h1>
 
-      <div class="directions">أدخل درجاتك، كل درجة في الحقل الخاص بها</div>
+      <div class="directions">أدخل درجاتك ، كل درجة في الحقل الخاص بها :</div>
 
-      <input id="Quizes" type="text" />
-      <input id="Midterm" type="text" />
-      <input id="FinalTest" type="text" />
-      <input id="Oral" type="text" />
-
-      <input
+      <input class="box" id="Quizes" type="text" placeholder="Quizes"/>
+      <input class="box" id="Midterm" type="text" placeholder="Midterm" />
+      <input class="box" id="FinalTest" type="text" placeholder="Final Test" />
+      <input class="box" id="Oral" type="text" placeholder="Oral" />
+        
+      
+      <input 
         id="submitButton"
         type="button"
         value="calculate"
-        onClick="submit()"
+        onClick="submit()";
       />
+    
 
-      <p>مجموع درجاتك (بالأرقام) هو</p>
+      <p>مجموع درجاتك (بالأرقام) هو:</p>
       <div id="total_grades"></div>
 
-      <p>درجتك النهائية هي (بالأحرف)</p>
+      <p>درجتك النهائية هي (بالأحرف):</p>
       <div id="final_grade"></div>
     </div>
+    <script src="./javascript.js"></script>
   </body>
 </html>
